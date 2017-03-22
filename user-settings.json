@@ -1,0 +1,12 @@
+{
+	"terminal.integrated.shell.windows" : "C:\\Program Files\\Git\\bin\\bash.exe" 	,
+	"editor.detectIndentation" 			: false 									,
+	"editor.renderWhitespace" 			: "all" 									,
+	"editor.insertSpaces" 				: false 									,
+	"files.associations" 				: {
+		"*.vtl" 						: "velocity"
+	} 																				,
+	"editor.wordWrap" 					: false 									,
+	"vsicons.presets.hideFolders" 		: false 									,
+	"workbench.iconTheme" 				: "vscode-icons"
+}
