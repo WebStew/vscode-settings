@@ -1,12 +1,30 @@
+// Place your settings in this file to overwrite the default settings
 {
-	"terminal.integrated.shell.windows" : "C:\\Program Files\\Git\\bin\\bash.exe" 	,
-	"editor.detectIndentation" 			: false 									,
-	"editor.renderWhitespace" 			: "all" 									,
-	"editor.insertSpaces" 				: false 									,
-	"files.associations" 				: {
-		"*.vtl" 						: "velocity"
-	} 																				,
-	"editor.wordWrap" 					: false 									,
-	"vsicons.presets.hideFolders" 		: false 									,
-	"workbench.iconTheme" 				: "vscode-icons"
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"editor.detectIndentation": false,
+	"editor.renderWhitespace": "all",
+	"editor.insertSpaces": false ,
+	"files.associations": {
+		"*.vtl": "velocity"
+	},
+	"editor.wordWrap": false,
+	"vsicons.presets.hideFolders": false,
+	"workbench.iconTheme": "vscode-icons",
+	"vsicons.associations.files": [],
+	"vsicons.associations.folders": [
+		{ 
+			"icon": "docs", 
+			"extensions": [
+				"documentation"
+			], 
+			"format": "svg" 
+		},
+		{ 
+			"icon": "src", 
+			"extensions": [
+				"development"
+			], 
+			"format": "svg" 
+		}
+	]
 }
